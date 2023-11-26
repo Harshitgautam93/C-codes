@@ -1,0 +1,21 @@
+//Program to take input of a name and display a welcome message ( one name )//
+#include <iostream>
+using namespace std;
+int main(){
+    string name;
+    cout<<"May i know your name ";
+    cin >> name;
+    cout<<"welcome"<<name;
+ return 0;
+}
+
+//Program to take input of a name and display a welcome message ( for whole name )//
+#include<iostream>
+using namespace std;
+int main(){
+    string name;
+    cout << " May i know your name ";
+    getline(cin,name);
+    cout << "Welcome"<<name;
+    return 0;
+}
