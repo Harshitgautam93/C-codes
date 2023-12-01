@@ -1,0 +1,18 @@
+// WAP greatest of two numbers
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cout<<"Enter number one";
+    cin >> a;
+    cout<<"Enter number two";
+    cin >> b;
+    if (a > b){
+     cout<<"the greatest number is"<< a;
+    }
+    else{
+     cout << "the greatest number is"<< b;
+    }
+    return 0;
+}
