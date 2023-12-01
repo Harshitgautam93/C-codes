@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+     int B , H , D;
+     cout<<"Enter the first number";
+     cin>>B;
+     cout<<"Enter the second number";
+     cin>>H;
+     if(H==0){
+      cout<<"Division is not possible";
+     }
+     else{
+         D = B / H;
+         cout<<"The answer is"<< D;
+         }
+         return 0;
+     
+}
