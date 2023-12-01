@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+     int age,young,old;
+     cout<<"Enter your age";
+     cin >> age;
+     if(age <= 50){
+         cout<<"young";
+     }
+     else{
+         cout<<"old ";
+     }
+     if (age <= 50){
+         cout<<"You are hired";
+     }
+     else{
+         cout<<"we are sorry";
+     }
+    
+     
+         return 0;
+     
+}
