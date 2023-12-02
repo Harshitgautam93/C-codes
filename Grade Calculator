@@ -1,0 +1,39 @@
+//Constraints : Total = M1+M2+M3 ,  Avg = Total/3 
+//Grades :   A : Avg > = 60
+//           B : 35<=Avg<60
+//           C : Avg < 35
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int m1 , m2 , m3 , Total , Avg;
+    cout<<"Enter your subject marks";
+    cin>>m1;
+    cout<<"Enter your subject marks";
+    cin>>m2;
+    cout<<"Enter your subject marks";
+    cin>>m3;
+    
+    Total=m1+m2+m3;
+    Avg = Total/3;
+    cout<<"the average is"<<Avg;
+    
+    if(Avg >= 60)
+    {
+        cout<<"Your grade is A";
+    }
+    else if(35<=Avg<60) 
+    {
+        cout<<"Your grade is B" ;
+    }
+    else {
+        cout<<"Your grade is C";
+    }
+    
+     
+    
+     
+    return 0;
+     
+}
