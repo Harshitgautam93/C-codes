@@ -1,0 +1,40 @@
+//Program to display day with day wise order(switch case)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int dayNumber;
+
+    // Input day number from user
+    cout << "Enter a day number (1-7): ";
+    cin >> dayNumber;
+
+    // Switch case to display day name based on day number
+    switch (dayNumber) {
+        case 1:
+            cout << "Day " << dayNumber << ": Sunday" << endl;
+            break;
+        case 2:
+            cout << "Day " << dayNumber << ": Monday" << endl;
+            break;
+        case 3:
+            cout << "Day " << dayNumber << ": Tuesday" << endl;
+            break;
+        case 4:
+            cout << "Day " << dayNumber << ": Wednesday" << endl;
+            break;
+        case 5:
+            cout << "Day " << dayNumber << ": Thursday" << endl;
+            break;
+        case 6:
+            cout << "Day " << dayNumber << ": Friday" << endl;
+            break;
+        case 7:
+            cout << "Day " << dayNumber << ": Saturday" << endl;
+            break;
+        default:
+            cout << "Invalid day number. Please enter a number between 1 and 7." << endl;
+    }
+
+    return 0;
+}
