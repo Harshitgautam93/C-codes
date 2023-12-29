@@ -1,0 +1,21 @@
+//WAP to display sum of n natural numbers
+#include <iostream>
+
+int main() {
+    // Declare variables
+    int n, sum = 0;
+
+    // Get input from user
+    std::cout << "Enter a positive integer (n): ";
+    std::cin >> n;
+
+    // Calculate the sum of the first n natural numbers
+    for (int i = 1; i <= n; ++i) {
+        sum += i;
+    }
+
+    // Display the result
+    std::cout << "Sum of the first " << n << " natural numbers: " << sum << "\n";
+
+    return 0;
+}
